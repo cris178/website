@@ -2,8 +2,9 @@ body{
     margin:0;
     padding:0;
 }
-img{
-    
+.container{
+    margin:0;
+    padding:0;
 }
 
 .intro p{
@@ -17,24 +18,18 @@ img{
     text-align: center;
    
 }
-.right{
-}
 ul{
      font-family: 'Libre Barcode 39 Text', serif;
      font-size: 30px;
      list-style-type: none;
      padding:0;
+     margin:0;
 }
-.col-12{
-   
-    
-}
-.col-4{
-    
-}
+
 .img-responsive{
-    width:100%;
-    height:100%;
+    max-width:100%;
+    height:auto;
+    display:block;
     overflow:hidden;
 }
 
