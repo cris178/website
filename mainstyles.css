@@ -2,31 +2,64 @@ body{
     margin:0;
     padding:0;
 }
+img{
+    
+}
+
+.intro p{
+     font-family: 'Raleway', serif;;
+     font-size: 30px;
+    
+}
+.center{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+   
+}
+.right{
+}
+ul{
+     font-family: 'Libre Barcode 39 Text', serif;
+     font-size: 30px;
+     list-style-type: none;
+     padding:0;
+}
 .col-12{
-    display:block;
-    margin-top:2rem;
-    height:37rem;
-    background-color: #ffcf10;
+   
+    
+}
+.col-4{
+    
 }
 .img-responsive{
     width:100%;
     height:100%;
     overflow:hidden;
-    
 }
 
 
-@media (min-width: 576px) { }
-
-
-@media (min-width: 768px) { }
-
-
-@media (min-width: 992px) {  
-    
+/*Links*/
+a:link {
+    color: black;
 }
 
-
-@media (min-width: 1200px) {
-    
+/* visited link */
+a:visited {
+    color: black;
 }
+
+/* mouse over link */
+.item1 a:hover {
+    color: #10007f;
+}
+.item2 a:hover{
+    color:#EB170C;
+}
+.item3 a:hover {
+    color:#d40044;
+}
+a:link{
+    text-decoration: none;
+}
+
