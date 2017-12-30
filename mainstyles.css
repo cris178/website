@@ -1,80 +1,65 @@
-
-
 html, body{
-    height:100%;
     margin:0;
     padding:0;
-    background-color: #FFFBEF;
+    overflow: hidden;
 }
-.container{
+body{
+    background-color: #e62452;
     margin:0;
     padding:0;
 }
-.container-left{
-    float:left;
-    height:100%;
-    display:block;
-    width:3.2%;
-    background-color:#FC5E6C;
-    margin:0;
-    padding:0;
-    font-size: 30px;
-}
-ul,p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color:#36454f ;
+#mainContainer{
+    height:800px;
+    position: relative;
 }
 
-#tags1{
-    color: #E59382;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 900;
+#mainMess{
+    color:white;
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    line-height: 60px;
+    margin-left:20%;
 }
-#one{
-    font-family: 'Quicksand';
-    font-size: 13px;
-    font-weight: 700;
+#tagline{
+    color:white;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-left:22%;
 }
-#two{
-    font-family: 'Quicksand';
-    font-size: 13px;
-    font-weight: 700;
-}
-#three{
-    font-family: 'Quicksand';
-    font-size: 13px;
-    font-weight: 700;
-}
-#titles{
-    font-family: 'Quicksand', 'Open Sans', sans-serif;
-}
-#left{
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px 10px rgba(0,0,0,0.22);
-    float:left;
-    height:100%;
-    display:block;
-    width:30%;
-    border-right-width: thin;
-    border-right-style: solid; 
-    border-right-color:#FFE5E9; 
-    margin:0;
-    font-family: 'Raleway', serif;;
-    font-size: 30px;
-    
-}
-.intro p{
-     font-family: 'Raleway', serif;;
-     font-size: 30px;
-    
-}
+
 .center{
     margin: auto;
     width: 80%;
-   
-   
+    margin-top:30%;
 }
+
+.center2{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    margin-left:45%;
+    margin-top: 18%;
+}
+
+.linkBox{
+    border-bottom-color: aliceblue;
+    width:100px;
+    border-style: solid;
+    border-width: 3px;
+    padding: 15px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30%;
+    margin-top:20px;
+}
+
 ul{
      list-style-type: none;
      padding:0;
@@ -91,12 +76,12 @@ ul{
 
 /*Links*/
 a:link {
-    color: black;
+    color: white;
 }
 
 /* visited link */
 a:visited {
-    color: black;
+    color: #d40044;
 }
 
 /* mouse over link */
