@@ -1,12 +1,17 @@
 html, body{
     margin:0;
     padding:0;
-    overflow: hidden;
+    overflow-x: hidden;
+    
 }
 body{
     background-color: #e62452;
     margin:0;
     padding:0;
+}
+img{
+    padding:0;
+    margin:0;
 }
 #mainContainer{
     height:800px;
@@ -29,29 +34,42 @@ body{
     margin-top: -10px;
     margin-left:22%;
 }
+.container{
+    border-top-style: dotted;
+    border-top-color: aliceblue;
+    border-top-width: 2px;
+}
 
 .center{
     margin: auto;
     width: 80%;
     margin-top:30%;
 }
-
+footer{
+    display:block;
+}
 .center2{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     position:absolute;
-    margin-left:45%;
-    margin-top: 18%;
+    margin-left:50%;
+    margin-top: 15%;
 }
-
+footer{
+    height:200px;
+    margin-left: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight: bold;
+}
 .linkBox{
-    border-bottom-color: aliceblue;
+    border-top-color: aliceblue;
     width:100px;
     border-style: solid;
     border-width: 3px;
     padding: 15px;
-    padding-top:5px;
-    padding-bottom: 5px;
+    padding-top:10px;
+    padding-bottom: 10px;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -65,6 +83,25 @@ ul{
      padding:0;
      margin:0;
 }
+
+.projectList{
+    padding-top:20px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.year{
+    padding-top:20px;
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 80px;
+    margin-top: -10px;
+}
+
 
 .img-responsive{
     max-width:100%;
@@ -81,7 +118,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: #d40044;
+    color: #fff34f;
 }
 
 /* mouse over link */
@@ -98,3 +135,23 @@ a:link{
     text-decoration: none;
 }
 
+@media screen and (max-width: 480px) {
+    #mainMess{
+        margin-left: 0;
+    }
+    #tagline{
+        margin-left: 0 ;
+    }
+    .center{
+        margin-left:2%;
+        
+    }
+    footer{
+        height:100px;
+        margin-left: 30%;
+    }
+    /* .center2{
+        margin: 0;
+        width: 0;
+    } */
+}
