@@ -1,0 +1,76 @@
+.Description {
+  margin-top: 200px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-family: "IBM Plex Mono", Arial, Helvetica, sans-serif;
+  font-style: Thin;
+}
+
+.number {
+}
+
+.categories {
+  margin-top: 100px;
+  text-align: center !important;
+}
+
+.categories > h1 {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.cats {
+  margin-top: 50px;
+}
+
+.cats h2 {
+  margin-top: 50px;
+}
+
+.right {
+  border-right: solid 2px black;
+}
+
+.left {
+  border-left: solid 2px black;
+}
+
+.one:hover {
+  color: #e1da89;
+}
+
+.two:hover {
+  color: #db7094;
+}
+
+.three:hover {
+  color: #4593a8;
+}
+
+.motto {
+  margin: 0;
+  padding: 0;
+  padding-right: 50px;
+  text-align: right;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.aboutMe {
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
+  text-align: left;
+  margin-right: 210px;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
